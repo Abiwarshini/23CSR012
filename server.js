@@ -18,3 +18,7 @@ app.get("/",(req,res)=>{
 app.get("/signup",(req,res)=>{
     
 })
+PORT = 5000;
+app.listen(PORT,(req,res)=>{
+    console.log("the server is connected and running")';
+}
